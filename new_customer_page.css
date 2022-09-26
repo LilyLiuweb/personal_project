@@ -449,7 +449,7 @@
 /* sample_product */
 .sample_product{
     width: 100%;
-    height: 800px;
+    height: 600px;
     background-color: var(--bg-color);
 }
 .store_location_list{
@@ -537,6 +537,9 @@
     margin-bottom: 20px;
 }
 /* footer */
+footer{
+    background-image: linear-gradient(to top,#D3CBC0,#FFFFFF) ;
+}
 .footer_wrap{
     height: 300px;
     display: flex;
