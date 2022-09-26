@@ -45,7 +45,7 @@ body{
 .button_primary{
   text-align: center;
   width: 100px;
-  height: 20px;
+  height: 40px;
   background-color: var(--h2-color);
   border-radius: 20px;
   margin: 0 auto;

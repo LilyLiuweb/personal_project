@@ -14,13 +14,13 @@
     height: 80px;
 }
 .nav_logo{
-    width: 80px;
+    width: 200px;
     height: 80px;
     display: inline-block;
     margin: auto 20px;
 }
 .nav_logo img{
-    width: 80%;
+    width: 100%;
 }
 .nav_menu{
     width: 100%;
