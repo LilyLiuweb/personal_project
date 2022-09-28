@@ -1,17 +1,19 @@
 /*header*/
-.fixed_header{
+header{
     width: 100%;
-    background-image: linear-gradient(to bottom,#D3CBC0,#FFFFFF) ;
+    background-image: linear-gradient(to bottom,#D3CBC080,#FFFFFF) ;
     position: sticky;
     top: 0;
     z-index: 100;
 }
 .nav{
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
     height: 80px;
+    z-index: 100;
 }
 .nav_logo{
     width: 200px;
@@ -46,11 +48,6 @@
 }
 .wrap .nav_item:nth-child(1) a{
     border-bottom: 2px solid #BC2222;
-}
-.wrap .nav_item:nth-child(1) a:hover{
-    display: inline-block;
-    width: 100%;
-    background-color: var(--hover-color);
 }
 .wrap li:nth-child(5),
 .wrap li:nth-child(6){
